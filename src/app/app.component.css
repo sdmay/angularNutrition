@@ -1,0 +1,25 @@
+.main {
+  width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+.front{
+  color: dodgerblue;
+}
+
+.back {
+
+}
+
+.factContainer {
+  margin-top:50px;
+}
+
+.searchArea {
+  margin-bottom: 50px;
+  text-align: center;
+}

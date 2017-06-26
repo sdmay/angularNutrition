@@ -1,0 +1,16 @@
+
+<div class="container">
+  <div class ="searchArea">
+  <h1> {{title}} </h1>
+  <input name='food' #foodSearch placeholder="Food Search" (keyup.enter)='searchFood(foodSearch)'>
+<button (click)="searchFood(foodSearch)">Get Healthy</button>
+  </div>
+
+<div *ngFor="let fact of nutritionFacts" class="col-md-4">
+  <p><span class="front">Brand Name: </span>{{fact.fields.brand_name}}</p>
+  <p><span class="front">Item Name: </span>{{fact.fields.item_name}}</p>
+  <p><span class="front">Calories: </span>{{fact.fields.nf_calories}}</p>
+  <hr/>
+</div>
+
+</div>
